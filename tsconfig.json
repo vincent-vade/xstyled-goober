@@ -1,0 +1,17 @@
+{
+  "include": ["src"],
+  "exclude": ["node_modules", "build"],
+  "compilerOptions": {
+    "baseUrl": ".",
+    "esModuleInterop": true,
+    "module": "esnext",
+    "target": "es5",
+    "moduleResolution": "node",
+    "jsx": "react-jsx",
+    "strict": true,
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "declaration": true,
+    "declarationDir": "build"
+  }
+}
